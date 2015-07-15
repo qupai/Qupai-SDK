@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/asset_item_more"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/qupai_effect_list_item_margin"
+    android:paddingRight="@dimen/qupai_effect_list_item_margin"
+    tools:context="com.duanqu.qupai.VideoActivity">
+
+    <ImageView
+        android:layout_width="@dimen/qupai_effect_list_more_item_image_width"
+        android:layout_height="@dimen/qupai_effect_list_item_image_size"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/qupai_effect_list_item_border_size"
+        android:background="@color/qupai_editor_asset_item_background"
+        android:scaleType="center"
+        android:src="?attr/qupaiEffectListMoreItem" />
+
+    <TextView
+        android:id="@+id/effect_chooser_item_text"
+        android:layout_width="@dimen/qupai_effect_list_item_image_with_border_size"
+        android:layout_height="@dimen/qupai_effect_list_item_title_height"
+        android:ellipsize="none"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="@color/qupai_effect_chooser_item_text"
+        android:textSize="13sp" />
+
+</LinearLayout>

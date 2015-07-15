@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AlertDialog.Qupai.Recorder" parent="">
+        <item name="android:bottomBright">@android:color/transparent</item>
+        <item name="android:bottomDark">@android:color/transparent</item>
+        <item name="android:bottomMedium">@android:color/transparent</item>
+        <item name="android:centerBright">@android:color/transparent</item>
+        <item name="android:centerDark">@android:color/transparent</item>
+        <item name="android:centerMedium">@android:color/transparent</item>
+        <item name="android:fullBright">@android:color/transparent</item>
+        <item name="android:fullDark">@android:color/transparent</item>
+        <item name="android:topBright">@android:color/transparent</item>
+        <item name="android:topDark">@android:color/transparent</item>
+        <item name="progressLayout">@layout/dlg_qupai_recorder_render_progress</item>
+    </style>
+    <style name="qupai_alert" parent="@android:style/Theme.Holo.Light.Dialog">
+        <item name="android:textSize">18sp</item>
+        <item name="android:foregroundGravity">center</item>
+    </style>
+
+    <style name="qupai_text">
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="ProgressBar.Qupai.Render" parent="">
+        <item name="android:indeterminateDrawable">@drawable/progress_qupai_circle</item>
+        <item name="android:indeterminateDuration">800</item>
+        <item name="android:minWidth">76dip</item>
+        <item name="android:maxWidth">76dip</item>
+        <item name="android:minHeight">76dip</item>
+        <item name="android:maxHeight">76dip</item>
+        <item name="android:max">100</item>
+    </style>
+
+    <style name="Qupai.ActivityNoAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:activityCloseExitAnimation">@anim/activity_close_qupai_exit</item>
+    </style>
+
+    <style name="Widget.ActionButton.Qupai.Recorder" parent="">
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <style name="Widget.ImageButton.Qupai.Recorder" parent="android:Widget.ImageButton">
+        <item name="android:background">@null</item>
+        <item name="android:padding">3dp</item>
+    </style>
+
+    <style name="Widget.TabWidget.Qupai.Recorder" parent="android:Widget.TabWidget">
+        <item name="android:textAppearance">@style/TextAppearance.Widget.TabWidget.Qupai.Recorder</item>
+        <item name="android:tabStripLeft">@null</item>
+        <item name="android:tabStripRight">@null</item>
+        <item name="android:tabStripEnabled">false</item>
+        <item name="android:background">@color/qupai_gray_0x33</item>
+    </style>
+
+    <style name="TextAppearance.Widget.TabWidget.Qupai.Recorder" parent="android:TextAppearance.Widget.TabWidget">
+        <item name="android:textColor">@color/tab_widget_bg_qupai_drafts</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Qupai.Text.BalloonTip" parent="">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="Qupai.Text.BalloonTip.Medium">
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="Qupai.Text.BalloonTip.Large">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Qupai.Text.Recorder.BalloonTip" parent="">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="Qupai.Text.Recorder.BalloonTip.Small">
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="Qupai.Text.Recorder.BalloonTip.Medium">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Qupai.Text.Recorder.BalloonTip.Mediumless">
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="Qupai.Text.Recorder.BalloonTip.Large">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">?attr/colorPrimary</item>
+    </style>
+
+    <style name="Qupai.Widget.RadioButton.EffectChooser" parent="@android:style/Widget.DeviceDefault.TextView">
+        <item name="android:width">75dp</item>
+        <item name="android:background">?attr/qupaiEditEffectTabIndicator</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">?attr/qupaiEditEffectTextColor</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="Qupai.Widget.Default.ProgressBar.Horizontal" parent="android:Widget.ProgressBar.Horizontal">
+        <item name="android:minHeight">10dp</item>
+        <item name="android:maxHeight">10dp</item>
+        <item name="android:progressDrawable">@drawable/theme_default_qupai_progress_drawable</item>
+    </style>
+    <style name="Qupai.Widget.Default.SeekBar" parent="@android:style/Widget.DeviceDefault.SeekBar">
+        <item name="android:progressDrawable">@drawable/theme_default_qupai_seek_bar_progress_drawable</item>
+        <item name="android:indeterminateDrawable">@drawable/theme_default_qupai_seek_bar_progress_drawable</item>
+        <item name="android:thumb">@drawable/seek_bar_qupai_thumb</item>
+        <item name="android:thumbOffset">9dp</item>
+        <item name="android:paddingLeft">9dp</item>
+        <item name="android:paddingRight">9dp</item>
+        <item name="android:maxHeight">4dp</item>
+    </style>
+
+    <style name="WindowTitle.Qupai.Recorder" parent="">
+        <item name="android:textSize">23sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="Qupai.Widget.RadioButton.OverlayEffectChooser" parent="@android:style/Widget.DeviceDefault.TextView">
+        <item name="android:background">@drawable/tab_indicator_qupai_overlay_text_effect</item>
+        <item name="android:gravity">center</item>
+    </style>
+</resources>

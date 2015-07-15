@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:state_activated="true">
+    <layer-list>
+      <item>
+        <color android:color="#00ccaa"/>
+      </item>
+      <item>
+        <inset android:insetTop="3dp">
+          <color android:color="@color/qupai_gray_0x33"/>
+        </inset>
+      </item>
+    </layer-list>
+  </item>
+  <item>
+    <color android:color="@color/qupai_gray_0x19"/>
+  </item>
+</selector>

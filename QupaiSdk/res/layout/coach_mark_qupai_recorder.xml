@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="21dp"
+    android:background="@color/qupai_recording_tip_bg" >
+
+    <LinearLayout
+        android:id="@+id/tip_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="bottom"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/Qupai.Text.Recorder.BalloonTip.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/qupai_video_recorder_tip_stop_1" />
+
+        <TextView
+            style="@style/Qupai.Text.Recorder.BalloonTip.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/qupai_video_recorder_tip_stop_2" />
+
+        <TextView
+            style="@style/Qupai.Text.Recorder.BalloonTip.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/qupai_video_recorder_tip_stop_3" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            android:src="?attr/qupaiNextStepTickButton" />
+
+        <TextView
+            style="@style/Qupai.Text.Recorder.BalloonTip.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/qupai_video_recorder_tip_stop_4" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tip_before_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="bottom"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/Qupai.Text.Recorder.BalloonTip.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/qupai_video_recorder_tip_before_start_1" />
+
+        <TextView
+            style="@style/Qupai.Text.Recorder.BalloonTip.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/qupai_video_recorder_tip_before_start_2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tip_first_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="bottom"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/Qupai.Text.Recorder.BalloonTip.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/qupai_video_recorder_tip_first_stop_1" />
+
+        <TextView
+            style="@style/Qupai.Text.Recorder.BalloonTip.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/qupai_video_recorder_tip_first_stop_2" />
+
+        <TextView
+            style="@style/Qupai.Text.Recorder.BalloonTip.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/qupai_video_recorder_tip_first_stop_3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tip_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="bottom"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/Qupai.Text.Recorder.BalloonTip.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/qupai_video_recorder_tip_progress_1" />
+
+        <TextView
+            style="@style/Qupai.Text.Recorder.BalloonTip.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/qupai_video_recorder_tip_progress_2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tip_recording"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="bottom"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/Qupai.Text.Recorder.BalloonTip.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/qupai_video_recorder_tip_recording_1" />
+
+        <TextView
+            android:id="@+id/txt_tip_recording_2"
+            style="@style/Qupai.Text.Recorder.BalloonTip.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            style="@style/Qupai.Text.Recorder.BalloonTip.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/qupai_video_recorder_tip_recording_3" />
+    </LinearLayout>
+
+</FrameLayout>

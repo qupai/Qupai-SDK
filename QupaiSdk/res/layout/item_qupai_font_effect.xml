@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+     android:layout_height="85dp">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:scaleType="fitXY"
+        android:id="@+id/font_item_image"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/font_list_qupai_item_stroke"
+        android:id="@+id/selected"/>
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="5dp"
+        android:id="@+id/font_item_download">
+        <ProgressBar
+            android:id="@+id/progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:layout_margin="6dp" />
+
+        <ImageButton
+            android:layout_width="@dimen/qupai_ic_size_small"
+            android:layout_height="@dimen/qupai_ic_size_small"
+            android:layout_gravity="center"
+            android:scaleType="center"
+            android:background="?attr/qupaiOverlayListDownload"
+            android:src="@drawable/ic_qupai_arrow_down_small_white"
+            android:id="@+id/download"/>
+
+    </FrameLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/qupai_editor_asset_tag_new"
+        android:layout_gravity="left|top"
+        android:id="@+id/indiator"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textColor="@android:color/white"
+        android:layout_gravity="bottom|left"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/font_item_name"/>
+
+</FrameLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/qupai_draft_chooser_item_size"
+    android:layout_height="@dimen/qupai_draft_chooser_item_size"
+    android:layout_gravity="center_vertical"
+    android:padding="@dimen/qupai_draft_chooser_item_padding" >
+
+    <ImageView
+        android:id="@+id/draft_thumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/effect_chooser_qupai_list_item_bg"
+        android:contentDescription="@null"
+        android:scaleType="fitXY"
+        android:padding="@dimen/qupai_draft_chooser_item_border" />
+
+    <TextView
+        android:id="@+id/draft_duration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/qupai_black_opacity_40pct"
+        android:drawableLeft="@drawable/ic_video_qupai_recorder_22"
+        android:gravity="left|center_vertical"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        android:layout_margin="@dimen/qupai_draft_chooser_item_border" />
+
+</FrameLayout>

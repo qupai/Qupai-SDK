@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:layout_weight="1" >
+        
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center" 
+            android:orientation="vertical" >
+
+        <com.duanqu.qupai.view.SquareFrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <SurfaceView
+                android:id="@+id/surface_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:id="@+id/btn_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|bottom"
+                android:layout_marginBottom="9dp"
+                android:layout_marginRight="9dp"
+                android:contentDescription="@null"
+                android:src="@drawable/btn_qupai_delete_draft"
+                android:visibility="gone" />
+        </com.duanqu.qupai.view.SquareFrameLayout>
+        
+        <FrameLayout
+            android:id="@+id/draft_timeline"
+            android:layout_width="match_parent"
+            android:layout_height="12dp"
+            android:layout_gravity="bottom"
+            android:background="?attr/qupaiRecorderTimelineBackgroundColor" >
+
+            <View
+                android:id="@+id/clip_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" />
+        </FrameLayout>
+        
+        </LinearLayout>
+        
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/qupai_draft_chooser_item_size"
+        android:layout_marginBottom="9dp" >
+
+        <com.duanqu.qupai.widget.android.widget.HListView
+            android:id="@+id/hlist_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:choiceMode="singleChoice"
+            android:listSelector="@android:color/transparent"
+            android:overScrollMode="never" />
+
+        <TextView
+            android:id="@+id/empty_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/qupai_nodraft"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+    </FrameLayout>
+
+</LinearLayout>

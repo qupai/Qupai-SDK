@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/qupai_draft_chooser_item_size"
+    android:layout_height="@dimen/qupai_draft_chooser_item_size"
+    android:layout_gravity="center_vertical"
+    android:padding="@dimen/qupai_draft_chooser_item_padding" >
+    
+    <FrameLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/effect_chooser_qupai_list_head_bg" >
+
+    <ImageView
+        android:id="@+id/import_album_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/btn_qupai_import_album_selector"
+        android:contentDescription="@null"
+        android:padding="@dimen/qupai_draft_chooser_item_border" />
+    
+    </FrameLayout>
+
+</FrameLayout>

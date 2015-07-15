@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/actionBarSize"
+    android:background="?android:attr/windowBackground" >
+
+    <ImageButton
+        android:id="@+id/draft_closeBtn"
+        style="?android:attr/actionButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center_vertical"
+        android:contentDescription="@null"
+        android:src="@drawable/btn_qupai_arrow_left_white" />
+
+    <TextView
+        android:id="@+id/draft_title"
+        style="?android:attr/windowTitleStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/qupai_gallery_activity_title"
+        android:textColor="@android:color/white" />
+
+    <ImageButton
+        android:id="@+id/draft_nextBtn"
+        style="?android:attr/actionButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center_vertical"
+        android:contentDescription="@null"
+        android:src="?attr/qupaiNextStepArrowButton" />
+
+</FrameLayout>

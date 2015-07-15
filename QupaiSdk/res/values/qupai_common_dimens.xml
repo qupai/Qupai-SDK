@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <dimen name="fastscroll_overlay_size">104dp</dimen>
+    <dimen name="fastscroll_overlay_text_size">52sp</dimen>
+    <dimen name="fastscroll_overlay_padding">16dp</dimen>
+    <dimen name="fastscroll_thumb_width">64dp</dimen>
+    <dimen name="fastscroll_thumb_height">52dp</dimen>
+
+    <dimen name="fasthscroll_overlay_size">104dp</dimen>
+    <dimen name="fasthscroll_overlay_text_size">52sp</dimen>
+    <dimen name="fasthscroll_overlay_padding">16dp</dimen>
+
+    <dimen name="fasthscroll_thumb_width">64dp</dimen>
+    <dimen name="fasthscroll_thumb_height">4dp</dimen>
+
+</resources>

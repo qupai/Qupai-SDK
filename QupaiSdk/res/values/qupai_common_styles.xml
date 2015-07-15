@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <style name="Animation.TypingFilter" parent="android:Animation">
+    </style>
+
+    <style name="Animation.TypingFilterRestore" parent="android:Animation">
+    </style>
+
+    <style name="Widget.AbsHListView" parent="android:Widget">
+        <item name="android:scrollbars">horizontal</item>
+        <item name="android:fadingEdge">horizontal</item>
+    </style>
+
+    <style name="Widget.HListView" parent="Widget.AbsHListView">
+        <item name="android:listSelector">@android:drawable/list_selector_background</item>
+        <item name="android:cacheColorHint">?android:attr/colorBackgroundCacheHint</item>
+        <item name="android:divider">@null</item>
+    </style>
+    
+    <style name="CommentDlgStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>        
+        
+    </style>
+    
+        <style name="TextDlgStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>        
+        
+    </style>
+    
+    <style name="DIY.Dialog.Fullscreen" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>        
+      
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowIsFloating">true</item>        
+        <item name="android:windowCloseOnTouchOutside">false</item>
+        <item name="android:backgroundDimEnabled">false</item>
+
+    </style>
+
+</resources>

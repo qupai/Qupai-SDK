@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/asset_item_overlay"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent" >
+
+    <FrameLayout
+        android:layout_width="@dimen/qupai_effect_list_item_image_with_border_size"
+        android:layout_height="@dimen/qupai_effect_list_item_image_with_border_size"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/qupai_effect_list_item_margin"
+        android:background="@drawable/effect_chooser_qupai_list_item_bg"
+        android:padding="@dimen/qupai_effect_list_item_border_size" >
+
+        <include layout="@layout/item_qupai_diyeffect_content_merge" />
+    </FrameLayout>
+
+</FrameLayout>

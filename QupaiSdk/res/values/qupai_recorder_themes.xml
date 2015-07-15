@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Dialog.Recorder" parent="@android:style/Theme.DeviceDefault.Dialog.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+        <item name="android:alertDialogStyle">@style/AlertDialog.Qupai.Recorder</item>
+        <item name="alertDialogStyle">@style/AlertDialog.Qupai.Recorder</item>
+    </style>
+
+    <style name="Theme.RenderProgress" parent="android:Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@style/Qupai.ActivityNoAnimation</item>
+    </style>
+
+    <style name="Theme.Qupai.Video.Default" parent="android:Theme.Holo.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:progressBarStyleHorizontal">@style/Qupai.Widget.Default.ProgressBar.Horizontal</item>
+        <item name="android:actionButtonStyle">@style/Widget.ActionButton.Qupai.Recorder</item>
+        <item name="android:windowTitleStyle">@style/WindowTitle.Qupai.Recorder</item>
+        <item name="android:windowBackground">@color/qupai_gray_0x19</item>
+        <item name="android:tabWidgetStyle">@style/Widget.TabWidget.Qupai.Recorder</item>
+        <item name="android:imageButtonStyle">@style/Widget.ImageButton.Qupai.Recorder</item>
+        <item name="android:seekBarStyle">@style/Qupai.Widget.Default.SeekBar</item>
+        <item name="qupaiNextStepTickButton">@drawable/theme_default_qupai_btn_next_step_tick</item>
+        <item name="qupaiNextStepArrowButton">@drawable/theme_default_qupai_btn_next_step_arrow</item>
+        <item name="qupaiRecorderTimelineClip">@drawable/theme_default_qupai_recorder_timeline_clip</item>
+        <item name="qupaiTabIndicator">@drawable/theme_default_qupai_tab_indicator</item>
+        <item name="qupaiEditEffectTabIndicator">@drawable/theme_default_qupai_tab_indicator_edit_effect</item>
+        <item name="qupaiEditEffectTextColor">@color/theme_default_qupai_text_edit_effect</item>
+        <item name="qupaiEditEffectAudioMixIcon">@drawable/theme_default_ic_edit_effect_audio_mix</item>
+        <item name="qupaiSweepLeft">@drawable/theme_qupai_default_sweep_left</item>
+        <item name="qupaiSweepright">@drawable/theme_qupai_default_sweep_right</item>
+        <item name="colorPrimary">#00ccaa</item>
+        <item name="qupaiBeautySkinHead">@drawable/theme_default_qupai_btn_beautyskin_switch_selector</item>
+        <item name="qupaiDIYOverlayEditbar">@drawable/theme_default_qupai_diy_editbar_end_selector</item>
+        <item name="qupaiDIYOverlayEditbar_frame">@drawable/theme_default_qupai_diy_editbar_rectstroke</item>
+        <item name="qupaiDIYOverlayEditbar_progress">@drawable/theme_default_qupai_diy_editbar_progress</item>
+        <item name="qupaiDIYOverlayContent_frame">@drawable/theme_default_qupai_edit_diy_overlay_content_frame_selector</item>
+        <item name="qupaiDiyMaskColor">@color/qupai_theme_default_background_color_transparent_20</item>
+        <item name="qupaiDIYOverlayCancel">@drawable/theme_default_qupai_btn_edit_overlay_cancel_selector</item>
+        <item name="qupaiDIYOverlayTransform">@drawable/theme_default_qupai_btn_edit_overlay_transform_selector</item>
+        <item name="qupaiDIYOverlayText">@drawable/theme_default_qupai_btn_edit_overlay_text_selector</item>
+        <item name="qupaiEffectListMoreItem">@drawable/theme_default_qupai_effect_list_more_item</item>
+        <item name="qupaiRecorderTimelineBackgroundColor">#474747</item>
+        <item name="qupaiDraftTimelineBackgroundColor">#7f000000</item>
+        <item name="qupaiOverlayListDownload">@drawable/theme_default_qupai_overlay_list_download_item</item>
+
+        <item name="absHListViewStyle">@style/Widget.AbsHListView</item>
+        <item name="hListViewStyle">@style/Widget.HListView</item>
+    </style>
+
+</resources>

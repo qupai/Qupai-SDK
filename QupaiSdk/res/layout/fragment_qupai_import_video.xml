@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/import_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal" >    
+        
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/qupai_draft_chooser_item_size"
+        android:layout_marginBottom="9dp" >
+
+        <com.duanqu.qupai.widget.android.widget.HListView
+            android:id="@+id/hlist_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:choiceMode="singleChoice"
+            android:listSelector="@android:color/transparent"
+            android:overScrollMode="never" />
+
+        <TextView
+            android:id="@+id/empty_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/qupai_novideo"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+    </FrameLayout>
+
+</LinearLayout>

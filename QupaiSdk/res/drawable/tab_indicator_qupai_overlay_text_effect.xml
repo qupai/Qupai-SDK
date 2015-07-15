@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_activated="true">
+        <layer-list>
+            <item>
+                <color android:color="@color/qupai_black_opacity_70pct"/>
+
+            </item>
+            <item android:left="10dp" android:right="10dp" android:top="45dp">
+                <shape android:shape="rectangle">
+                    <size android:height="3dp" android:width="80dp"/>
+                    <solid android:color="#00ccaa"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item>
+        <color android:color="@color/qupai_black_opacity_70pct"/>
+    </item>
+</selector>

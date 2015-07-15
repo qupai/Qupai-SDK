@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item>
+        <bitmap
+            android:gravity="center_vertical|left"
+            android:src="@drawable/balloon_qupai_tip_anchor_left" />
+    </item>
+    <item android:left="10dp">
+        <shape android:shape="rectangle" >
+            <corners android:radius="5dp" />
+
+            <solid android:color="@color/qupai_balloon_tip_bg_cyan" />
+        </shape>
+    </item>
+
+</layer-list>

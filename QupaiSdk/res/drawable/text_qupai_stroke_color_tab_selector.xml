@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"> 
+    
+    <item android:state_activated="true" android:drawable="@drawable/text_stroke_color_qupai_selected"/>
+    
+    <item android:drawable="@drawable/text_stroke_color_qupai_normal"/>
+
+</selector>

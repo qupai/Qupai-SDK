@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+      <string name="update_later">以后再说</string>
+      <string name="settting_new_version">版本更新</string>
+      <string name="update_now">立即更新</string>
+</resources>

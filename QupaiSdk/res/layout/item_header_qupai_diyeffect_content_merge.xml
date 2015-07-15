@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <ImageView
+        android:id="@+id/effect_chooser_item_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@null"
+        android:scaleType="fitXY" />
+
+    <ProgressBar
+        android:id="@+id/effect_chooser_item_progress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:layout_gravity="center"
+        android:layout_margin="6dp" />
+
+    <ImageButton
+        android:id="@+id/effect_chooser_item_download"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@null"
+        android:contentDescription="@null"
+        android:src="@drawable/btn_qupai_download_asset" />
+
+    <ImageView
+        android:id="@+id/effect_chooser_item_new"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|left"
+        android:contentDescription="@null"
+        android:src="@drawable/qupai_editor_asset_tag_new" />
+
+    <ImageView android:id="@+id/effect_chooser_item_lock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|left"
+        android:contentDescription="@null"
+        android:src="@drawable/download_qupai_category_locked"/>
+
+</merge>

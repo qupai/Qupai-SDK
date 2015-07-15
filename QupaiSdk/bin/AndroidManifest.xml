@@ -1,0 +1,85 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.duanqu.qupai.sdk"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+         <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+ <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-feature android:name="android.hardware.camera.flash" />
+
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.RECORD_VIDEO" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application>
+        <activity
+            android:name="com.duanqu.qupai.trim.VideoTrimActivity"
+            android:configChanges="orientation"
+            android:process="@string/qupai_media_process_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Qupai.Video.Default" />
+        <activity
+            android:name="com.duanqu.qupai.trim.VideoFileActivity"
+            android:configChanges="orientation"
+            android:process="@string/qupai_media_process_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Qupai.Video.Default" />
+        <activity
+            android:name="com.duanqu.qupai.trim.VideoGalleryActivity"
+            android:configChanges="orientation"
+            android:process="@string/qupai_media_process_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Qupai.Video.Default" />
+
+        <receiver android:name="com.duanqu.qupai.editor.GuideTipReceiver" />
+
+        <service
+            android:name="com.duanqu.qupai.MediaServer"
+            android:process="@string/qupai_media_process_name" />
+        <service
+            android:name="com.duanqu.qupai.faceplusplus.FacesDetectionServer"
+            android:process="@string/qupai_media_face_detect_process_name" />
+
+        <activity
+            android:name="com.duanqu.qupai.recorder.RenderProgressActivity"
+            android:configChanges="orientation"
+            android:process="@string/qupai_media_process_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.RenderProgress" />
+
+        <activity
+            android:name="com.duanqu.qupai.VideoActivity"
+            android:launchMode="singleTop"
+            android:parentActivityName="@string/qupai_video_activity_parent"
+            android:process="@string/qupai_media_process_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Qupai.Video.Default" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="@string/qupai_video_activity_parent" />
+        </activity>
+
+        <activity
+            android:name="com.duanqu.qupai.DraftsActivity"
+            android:configChanges="orientation"
+            android:parentActivityName="com.duanqu.qupai.VideoActivity"
+            android:process="@string/qupai_media_process_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Qupai.Video.Default" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.duanqu.qupai.VideoActivity" />
+        </activity>
+    </application>
+
+</manifest>

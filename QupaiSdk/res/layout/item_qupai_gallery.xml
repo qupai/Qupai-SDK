@@ -1,0 +1,23 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="87dp"
+    android:layout_height="87dp" >
+
+    <com.duanqu.qupai.widget.astickyheader.ui.SquareImageView
+        android:id="@+id/gallery_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/empty_qupai_photo" />
+    
+    <TextView
+        android:id="@+id/video_duration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/qupai_black_opacity_40pct"
+        android:drawableLeft="@drawable/ic_video_qupai_recorder_22"
+        android:gravity="left|center_vertical"
+        android:textColor="@android:color/white"
+        android:textSize="12sp" />
+</FrameLayout>

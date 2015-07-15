@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="qupai_media_process_name"></string>
+    <string name="qupai_media_face_detect_process_name"></string>
+    <!-- customizable -->
+    <string name="qupai_media_workspace_dir">qupai_workspace</string>
+
+    <string-array name="Qupai_ApplicationGlue_LibraryList">
+        <item>gnustl_shared</item>
+        <item>qupai-media-thirdparty</item>
+        <item>qupai-media-jni</item>
+    </string-array>
+</resources>

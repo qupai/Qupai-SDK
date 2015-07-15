@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:id="@android:id/background">
+    <shape android:shape="oval">
+      <size android:height="37dp" android:width="37dp"/>      
+      <solid android:color="#00ccaa"/>
+    </shape>
+  </item>
+  <item android:id="@android:id/progress">
+      <bitmap
+          android:src="@drawable/edit_qupai_diy_download"
+          android:gravity="center"/>
+  </item>
+</layer-list>

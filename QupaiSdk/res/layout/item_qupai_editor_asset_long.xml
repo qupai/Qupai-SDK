@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/qupai_effect_list_item_margin"
+    android:paddingRight="@dimen/qupai_effect_list_item_margin" >
+
+    <FrameLayout
+        android:layout_width="@dimen/qupai_effect_list_item_image_with_border_size"
+        android:layout_height="@dimen/qupai_effect_list_item_image_with_border_size"
+        android:layout_gravity="center"
+        android:background="@drawable/effect_chooser_qupai_list_item_bg"
+        android:padding="@dimen/qupai_effect_list_item_border_size" >
+
+        <ImageView
+            android:id="@+id/effect_chooser_item_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@null"
+            android:scaleType="fitXY" />
+
+        <include layout="@layout/item_qupai_editor_asset_addons" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/effect_chooser_item_text"
+        android:layout_width="@dimen/qupai_effect_list_item_image_with_border_size"
+        android:layout_height="@dimen/qupai_effect_list_item_title_height"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="@color/qupai_effect_chooser_item_text"
+        android:textSize="13sp" />
+
+</LinearLayout>

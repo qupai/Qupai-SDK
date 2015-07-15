@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/actionBarSize" >
+
+    <ImageButton
+        android:id="@+id/btn_back"
+        style="?android:attr/actionButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|left"
+        android:contentDescription="@null"
+        android:src="@drawable/btn_qupai_arrow_left_white" />
+
+    <TextView
+        android:id="@+id/title_text"
+        style="?android:attr/windowTitleStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/qupai_video_edit_activity_title" />
+
+    <ImageButton
+        android:id="@+id/btn_next"
+        style="?android:attr/actionButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|right"
+        android:contentDescription="@null"
+        android:src="?attr/qupaiNextStepArrowButton" />
+
+</FrameLayout>

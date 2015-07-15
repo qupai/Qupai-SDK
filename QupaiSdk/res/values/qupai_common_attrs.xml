@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <declare-styleable name="AutoScaleText">		
+		<attr name="strokeWidth" format="dimension" />
+		<attr name="strokeMiter" format="dimension" />
+		<attr name="strokeColor" format="color" />
+		<attr name="strokeJoinStyle">
+		    <enum name="miter" value="0" />
+		    <enum name="bevel" value="1" />
+		    <enum name="round" value="2" />
+		</attr>
+	</declare-styleable>
+    
+    <declare-styleable name="AbsListView">
+        <attr name="android:listSelector" />
+        <attr name="android:stackFromBottom" />
+        <attr name="android:textFilterEnabled" />
+        <attr name="android:smoothScrollbar" />
+        <attr name="android:fastScrollEnabled" />
+        <attr name="android:fastScrollAlwaysVisible" />
+        <attr name="android:scrollingCache" />
+        <attr name="android:drawSelectorOnTop" />
+        <attr name="android:cacheColorHint" />
+        <attr name="android:transcriptMode" />
+        <attr name="android:choiceMode" />
+    </declare-styleable>
+
+    <declare-styleable name="AbsHListView">
+        <attr name="android:listSelector" />
+        <attr name="android:stackFromBottom" />
+        <attr name="android:textFilterEnabled" />
+        <attr name="android:smoothScrollbar" />
+        <attr name="android:fastScrollEnabled" />
+        <attr name="android:fastScrollAlwaysVisible" />
+        <attr name="android:scrollingCache" />
+        <attr name="android:drawSelectorOnTop" />
+        <attr name="android:cacheColorHint" />     
+        <attr name="android:transcriptMode" />
+        <attr name="android:choiceMode" />
+    </declare-styleable>
+
+    <declare-styleable name="ExpandableListView">
+        <attr name="android:groupIndicator" />
+        <attr name="android:childDivider" />
+        <attr name="android:indicatorStart" />
+        <attr name="android:indicatorEnd" />
+        <attr name="android:indicatorLeft" />
+        <attr name="android:indicatorRight" />
+        <attr name="android:childIndicator" />
+        <attr name="android:childIndicatorStart" />
+        <attr name="android:childIndicatorEnd" />
+        <attr name="android:childIndicatorLeft" />
+        <attr name="android:childIndicatorRight" />
+    </declare-styleable>
+
+    <declare-styleable name="ListView">
+        <attr name="android:divider" />
+        <attr name="android:overScrollFooter" />
+        <attr name="android:overScrollHeader" />
+        <attr name="android:dividerHeight" />
+        <attr name="android:headerDividersEnabled" />
+        <attr name="android:footerDividersEnabled" />
+        <attr name="android:entries" />
+    </declare-styleable>
+
+    <declare-styleable name="HListView">
+        <attr name="android:divider" />
+        <attr name="android:overScrollFooter" />
+        <attr name="android:overScrollHeader" />
+        <attr name="android:dividerHeight" />
+        <attr name="android:headerDividersEnabled" />
+        <attr name="android:footerDividersEnabled" />
+        <attr name="android:entries" />
+    </declare-styleable>
+
+    <declare-styleable name="EditOverlay_Layout">
+        <attr name="android:layout_gravity" />
+        <attr name="android:layout_width" />
+        <attr name="android:layout_height" />
+    </declare-styleable>
+
+    <attr name="absHListViewStyle" format="reference" />
+    <attr name="hListViewStyle" format="reference" />
+
+
+    <declare-styleable name="CircularImageView">
+        <attr name="android:src" />
+    </declare-styleable>
+
+    <attr name="layout_reference">
+        <flag name="top" value="0x30" />
+        <flag name="bottom" value="0x50" />
+        <flag name="left" value="0x03" />
+        <flag name="right" value="0x05" />
+        <flag name="center_vertical" value="0x10" />
+        <flag name="center_horizontal" value="0x01" />
+        <flag name="center" value="0x11" />
+    </attr>
+
+    <declare-styleable name="FrameLayout_Layout">
+        <attr name="android:layout_gravity" />
+        <attr name="android:layout_marginTop" />
+        <attr name="android:layout_marginLeft" />
+        <attr name="android:layout_marginRight" />
+        <attr name="android:layout_marginBottom" />
+        <attr name="android:layout_width" />
+        <attr name="android:layout_height" />
+        <attr name="layout_reference" />
+    </declare-styleable>
+
+
+    <attr name="progressLayout" format="reference" />
+    <attr name="horizontalProgressLayout" format="reference" />
+
+    <declare-styleable name="AlertDialog">
+        <attr name="progressLayout" />
+        <attr name="horizontalProgressLayout" />
+    </declare-styleable>
+
+    <declare-styleable name="WeightLayout">
+        <attr name="weightWidth" format="float" />
+        <attr name="weightHeight" format="float" />
+        <attr name="keepAspectRatio" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="WeightLayout_Layout">
+        <attr name="layout_weightX" format="float" />
+        <attr name="layout_weightY" format="float" />
+    </declare-styleable>
+</resources>

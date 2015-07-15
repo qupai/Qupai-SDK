@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Qupai.Text.Recorder.BalloonTip.Small"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/balloon_qupai_tip_center_top_bg"
+    android:gravity="center"
+    android:paddingBottom="10dp"
+    android:paddingLeft="13dp"
+    android:paddingRight="13dp"
+    android:paddingTop="20dp">
+
+</TextView>

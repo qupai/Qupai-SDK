@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/qupai_action_bar_size_recorder" >
+
+        <ImageView
+            android:id="@+id/closeBtn"
+            style="@style/Widget.ActionButton.Qupai.Recorder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:contentDescription="@null"
+            android:src="@drawable/btn_qupai_cancel_cross" />
+
+        <FrameLayout
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp" >
+
+            <CheckBox
+                android:id="@+id/checkbox"
+                style="?android:attr/actionButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|start"
+                android:button="?attr/qupaiBeautySkinHead" />
+
+            <ImageView
+                android:id="@+id/btn_switch_camera"
+                style="?android:attr/actionButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|end"
+                android:contentDescription="@null"
+                android:src="@drawable/btn_qupai_camera_switch_facing" />
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/btn_save"
+            style="@style/Widget.ActionButton.Qupai.Recorder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:contentDescription="@null"
+            android:src="@drawable/btn_qupai_save_project" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/record_timeline"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="bottom"
+        android:background="@color/qupai_recorder_timeline_background" >
+
+        <LinearLayout
+            android:id="@+id/timeline_underlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <View
+                android:id="@+id/min_capture_duration_spacer"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:contentDescription="@null"
+                android:src="@android:color/white" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/clip_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" />
+    </FrameLayout>
+
+    <com.duanqu.qupai.view.SquareFrameLayout
+        android:id="@+id/camera_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <android.opengl.GLSurfaceView
+            android:id="@+id/camera_surface"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <com.duanqu.qupai.recorder.TimelineTimeLayout
+            android:id="@+id/timeline_time_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/recorder_qupai_time_balloon_tip_bg_left"
+                android:textColor="@android:color/white"
+                android:textSize="10sp" />
+        </com.duanqu.qupai.recorder.TimelineTimeLayout>
+
+        <View
+            android:id="@+id/camera_curtain_up"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/black" />
+
+        <View
+            android:id="@+id/camera_curtain_down"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/black" />
+
+        <TextView
+            android:id="@+id/camera_zoom_indicator"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_gravity="top|right"
+            android:layout_marginRight="9dp"
+            android:layout_marginTop="9dp"
+            android:background="@drawable/camera_qupai_zoom_indicator_bg"
+            android:drawableTop="@drawable/ic_camera_qupai_zoom"
+            android:gravity="center|bottom"
+            android:includeFontPadding="false"
+            android:paddingBottom="3dp"
+            android:paddingTop="7dp"
+            android:textColor="@android:color/white"
+            android:textSize="15sp" />
+
+        <View
+            android:id="@+id/camera_focus_area"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/camera_focus_qupai_area" />
+
+        <LinearLayout
+            android:id="@+id/skinprocess"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_gravity="bottom"
+            android:background="@color/qupai_black_opacity_40pct"
+            android:orientation="horizontal"
+            android:visibility="invisible" >
+
+            <TextView
+                android:id="@+id/skinlevel"
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:text="@string/qupai_beautyskin"
+                android:textColor="@android:color/white"
+                android:textSize="15sp" />
+
+            <SeekBar
+                android:id="@+id/skinSeekBar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:max="139"
+                android:progress="112" />
+
+            <TextView
+                android:id="@+id/process"
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:text="@string/qupai_skinlevelprocess"
+                android:textColor="@android:color/white"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/beautyTips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/toast_background_qupai_shape"
+            android:gravity="center"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:paddingBottom="9dp"
+            android:paddingLeft="18dp"
+	        android:paddingRight="18dp"
+	        android:paddingTop="9dp"
+	        android:visibility="invisible"
+	        android:textColor="@android:color/white"
+	        android:textSize="15sp" />
+
+    </com.duanqu.qupai.view.SquareFrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="?android:attr/windowBackground"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/btn_capture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:button="@null"
+            android:contentDescription="@null"
+            android:src="@drawable/btn_qupai_camera_capture" />
+
+        <View
+            android:id="@+id/anchor"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@id/btn_capture" >
+
+            <CheckBox
+                android:id="@+id/btn_delete_last_clip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_qupai_clip_delete_last"
+                android:button="@null"
+                android:saveEnabled="false"
+                android:contentDescription="@null"
+                android:enabled="false" />
+
+            <ImageView
+                android:id="@+id/btn_gallery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_qupai_link_draft_box"
+                android:contentDescription="@null"
+                android:padding="1dp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@id/btn_capture" >
+
+            <ImageView
+                android:id="@+id/nextBtn"
+                style="@style/Widget.ActionButton.Qupai.Recorder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:contentDescription="@null"
+                android:src="?attr/qupaiNextStepTickButton" />
+        </FrameLayout>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/edit_dynamic"
+    android:background="?attr/qupaiDIYOverlayEditbar_frame"
+    android:visibility="visible">
+    <View
+        android:layout_width="15dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="left|center_vertical"
+        android:background="?attr/qupaiDIYOverlayEditbarStart"
+        android:id="@+id/start"/>
+    
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="match_parent"
+        android:id="@+id/end"
+        android:scaleType="fitXY"
+        android:layout_gravity="right"
+        android:src="?attr/qupaiDIYOverlayEditbar"/>
+</FrameLayout> 

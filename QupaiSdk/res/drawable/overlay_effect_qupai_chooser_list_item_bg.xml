@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+
+    <solid android:color="@android:color/transparent" />
+
+    <stroke
+        android:width="@dimen/qupai_overlay_effect_chooser_item_padding"
+        android:color="@color/qupai_translucent_0x7f" />
+
+</shape>

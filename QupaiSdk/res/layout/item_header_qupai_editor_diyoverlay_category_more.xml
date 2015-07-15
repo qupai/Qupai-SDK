@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/category_more"
+    android:layout_width="80dp"
+    android:layout_height="@dimen/qupai_typegroup_size_edit"
+    android:background="@drawable/diy_group_qupai_item_ground_selector">
+
+    <FrameLayout
+        android:layout_width="80dp"
+        android:layout_height="@dimen/qupai_typegroup_size_edit"
+        android:layout_gravity="center">
+        <ImageView
+	        android:id="@+id/diy_group_item_text"
+	        android:layout_width="@dimen/qupai_typegroup_more_edit"
+	        android:layout_height="@dimen/qupai_typegroup_more_edit"
+            android:layout_marginLeft="@dimen/qupai_typegroup_margin"
+            android:layout_marginRight="@dimen/qupai_typegroup_margin"
+	        android:gravity="center"
+	        android:layout_gravity="center"
+	        android:scaleType="center"
+	        android:src="?attr/qupaiEffectListMoreItem"/>
+    </FrameLayout>
+
+
+
+    <ImageView
+        android:id="@+id/effect_category_item_new"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="top|left"
+        android:contentDescription="@null"
+        android:visibility="gone"
+        android:src="@drawable/qupai_editor_asset_tag_new"/>
+
+</FrameLayout>

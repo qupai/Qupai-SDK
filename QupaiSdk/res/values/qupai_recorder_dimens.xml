@@ -1,0 +1,69 @@
+<resources>
+
+    <dimen name="qupai_editbar_start_padding">10dp</dimen>
+    <dimen name="qupai_editbar_padding">34dp</dimen>
+    <dimen name="qupai_editbar_padding_1">4dp</dimen>
+    <dimen name="qupai_tip_padding_top">20dp</dimen>
+    <dimen name="qupai_tip_padding_left">138dp</dimen>
+    <dimen name="qupai_tip_padding_timeline_y">5dp</dimen>
+    <dimen name="qupai_tip_padding_timeline_x">10dp</dimen>
+    <dimen name="qupai_tip_padding_preview_y">90dp</dimen>
+    <dimen name="qupai_action_bar_size_recorder">60dp</dimen>
+
+    <dimen name="qupai_effect_list_item_margin">6dp</dimen>
+    <dimen name="qupai_effect_list_item_image_size">66dp</dimen>
+    <dimen name="qupai_effect_list_item_border_size">3dp</dimen>
+    <dimen name="qupai_effect_list_item_image_with_border_size">72dp</dimen>
+    <dimen name="qupai_effect_list_item_title_height">25dp</dimen>
+
+    <dimen name="qupai_overlay_effect_group_list_height_long">40dp</dimen>
+    <dimen name="qupai_overlay_effect_group_list_height_short">30dp</dimen>
+
+    <dimen name="qupai_overlay_effect_chooser_item_padding">1dp</dimen>
+
+    <!-- "More" image size (no border) -->
+    <dimen name="qupai_effect_list_more_item_image_width">52dp</dimen>
+
+    <dimen name="qupai_effect_chooser_item_new_inidcator_height">6dp</dimen>
+
+    <dimen name="qupai_effect_diyoverlay_operation_size">44dp</dimen>
+
+    <dimen name="qupai_effect_chooser_diy_group_item_size">75dp</dimen>
+    <dimen name="qupai_draft_chooser_item_size">84dp</dimen>
+    <dimen name="qupai_draft_chooser_item_padding">6dp</dimen>
+    <dimen name="qupai_draft_chooser_item_border">3dp</dimen>
+
+    <dimen name="qupai_seekbar_playbar_margin">0dp</dimen>
+	<dimen name="qupai_seekbar_default_margin">0dp</dimen>
+
+	<dimen name="qupai_sys_camera_margin">9dp</dimen>
+
+	<dimen name="qupai_import_tutorial_dialog">105dp</dimen>
+	<dimen name="qupai_trim_tutorial_dialog">135dp</dimen>
+	<dimen name="qupai_trim_tutorial_bottom">45dp</dimen>
+
+    <dimen name="qupai_action_bar_size_edit_short">40dp</dimen>
+    <dimen name="qupai_action_bar_size_edit_long">60dp</dimen>
+
+    <dimen name="qupai_edit_thumbnail_bar_height_short">40dp</dimen>
+    <dimen name="qupai_edit_thumbnail_bar_height_long">45dp</dimen>
+
+    <dimen name="qupai_timeline_size_edit_short">45dp</dimen>
+    <dimen name="qupai_timeline_size_edit_long">45dp</dimen>
+
+    <dimen name="qupai_radiogroup_size_edit_short">32dp</dimen>
+    <dimen name="qupai_radiogroup_size_edit_long">45dp</dimen>
+
+    <dimen name="qupai_typegroup_size_edit_short">30dp</dimen>
+    <dimen name="qupai_typegroup_size_edit_long">40dp</dimen>
+
+    <dimen name="qupai_typegroup_more_edit_short">22dp</dimen>
+    <dimen name="qupai_typegroup_more_edit_long">28dp</dimen>
+
+    <dimen name="qupai_typegroup_margin_short">29dp</dimen>
+    <dimen name="qupai_typegroup_margin_long">26dp</dimen>
+
+    <dimen name="qupai_video_editor_tip_effect_offset">-5dp</dimen>
+    <dimen name="qupai_ic_size_small">19dp</dimen>
+
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="qupaiNextStepTickButton" format="reference" />
+    <attr name="qupaiNextStepArrowButton" format="reference" />
+    <attr name="qupaiDIYOverlayEditbar" format="reference" />
+    <attr name="qupaiDIYOverlayEditbar_frame" format="reference" />
+    <attr name="qupaiDIYOverlayEditbar_progress" format="reference" />
+    <attr name="qupaiDIYOverlayContent_frame" format="reference" />
+    <attr name="qupaiDIYOverlayEditbarStart" format="reference" />
+    <attr name="qupaiDIYOverlayCancel" format="reference" />
+    <attr name="qupaiDIYOverlayTransform" format="reference" />
+    <attr name="qupaiDIYOverlayText" format="reference" />
+    <attr name="qupaiDiyMaskColor" format="reference" />
+    <attr name="qupaiEditEffectTabIndicator" format="reference" />
+    <attr name="qupaiEditEffectTextColor" format="reference" />
+    <attr name="qupaiEditEffectAudioMixIcon" format="reference" />
+    <attr name="qupaiEffectListMoreItem" format="reference" />
+    <attr name="qupaiBeautySkinHead" format="reference" />
+    <attr name="qupaiRecorderTimelineBackgroundColor" format="color" />
+    <attr name="qupaiRecorderTimelineClip" format="reference" />
+    <attr name="qupaiDraftTimelineBackgroundColor" format="color" />
+    <attr name="qupaiTabIndicator" format="reference" />
+    <attr name="qupaiSweepLeft" format="reference" />
+    <attr name="qupaiSweepright" format="reference" />
+    <attr name="qupaiOverlayListDownload" format="reference" />
+</resources>

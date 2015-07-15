@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:state_checked="false" android:drawable="@drawable/btn_qupai_beauty_skin_hidden"/>
+  <item android:state_checked="true" android:drawable="@drawable/theme_qupai_default_btn_beauty_skin_show"/>
+</selector>

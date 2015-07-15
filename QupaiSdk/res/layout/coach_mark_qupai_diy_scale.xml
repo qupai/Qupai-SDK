@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/qupai_black_opacity_50pct">
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/qupai_action_bar_size_edit"/>
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/qupai_timeline_size_edit"/>
+    
+    <com.duanqu.qupai.view.SquareFrameLayout
+        android:id="@+id/video"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+    
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    
+</LinearLayout>

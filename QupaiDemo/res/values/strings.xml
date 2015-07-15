@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">QupaiSample</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="tv_time">时长:</string>
+    <string name="tv_rate">码率:</string>
+    <string name="more_music">更多音乐:</string>
+    <string name="tv_more_music">更多音乐</string>
+    <string name="lead_in">开启导入:</string>
+    <string name="tv_watermark">水印:</string>
+    <string name="default_time">默认时长为8秒</string>
+    <string name="defalut_rate">默认码率为2兆,码率越小质量越差，合成更快</string>
+    <string name="defalut_watermark">传1和2，分别代表右上，右下，默认1</string>
+    <string name="btn_record">record</string>
+    
+</resources>

@@ -1,0 +1,20 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView android:id="@+id/renderText"
+        android:layout_width="76dip"
+        android:layout_height="76dip"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="@android:color/white"
+        android:text="0%" />
+        
+    <ProgressBar
+        android:id="@+id/renderProgress"
+        style="@style/ProgressBar.Qupai.Render"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</FrameLayout>

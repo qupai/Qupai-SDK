@@ -1,0 +1,56 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.duanqu.qupaisample">
+
+     <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="22"/>
+
+   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.READ_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+
+
+    <application android:allowBackup="true" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:name="com.duanqu.qupaisample.app.TestApplicaticon">
+        <activity android:name="com.duanqu.qupaisample.MainActivity"> 
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.duanqu.qupaisample.MoreMusicActivity"/>
+        <activity android:configChanges="orientation" android:name="com.duanqu.qupai.trim.VideoTrimActivity" android:process="@string/qupai_media_process_name" android:screenOrientation="portrait" android:theme="@style/Theme.Qupai.Video.Default"/>
+        <activity android:configChanges="orientation" android:name="com.duanqu.qupai.trim.VideoFileActivity" android:process="@string/qupai_media_process_name" android:screenOrientation="portrait" android:theme="@style/Theme.Qupai.Video.Default"/>
+        <activity android:configChanges="orientation" android:name="com.duanqu.qupai.trim.VideoGalleryActivity" android:process="@string/qupai_media_process_name" android:screenOrientation="portrait" android:theme="@style/Theme.Qupai.Video.Default"/>
+
+        <activity android:configChanges="orientation" android:name="com.duanqu.qupai.recorder.RenderProgressActivity" android:process="@string/qupai_media_process_name" android:screenOrientation="portrait" android:theme="@style/Theme.RenderProgress"/>
+
+        <activity android:launchMode="singleTop" android:name="com.duanqu.qupai.VideoActivity" android:parentActivityName="com.duanqu.qupai.sdk.@string/qupai_video_activity_parent" android:process="@string/qupai_media_process_name" android:screenOrientation="portrait" android:theme="@style/Theme.Qupai.Video.Default">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="@string/qupai_video_activity_parent"/>
+        </activity>
+
+        <activity android:configChanges="orientation" android:name="com.duanqu.qupai.DraftsActivity" android:parentActivityName="com.duanqu.qupai.VideoActivity" android:process="@string/qupai_media_process_name" android:screenOrientation="portrait" android:theme="@style/Theme.Qupai.Video.Default">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.duanqu.qupai.VideoActivity"/>
+        </activity>
+
+        <service android:name="com.duanqu.qupai.MediaServer" android:process="@string/qupai_media_process_name"/>
+        <service android:name="com.duanqu.qupai.faceplusplus.FacesDetectionServer" android:process="@string/qupai_media_face_detect_process_name"/>
+
+        <receiver android:name="com.duanqu.qupai.editor.GuideTipReceiver"/>
+
+    </application>
+    <uses-permission android:name="android.permission.CAMERA"/>
+
+    <uses-permission android:name="android.permission.FLASHLIGHT"/>
+    <uses-permission android:name="android.permission.RECORD_VIDEO"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-feature android:name="android.hardware.camera.autofocus"/>
+    <uses-feature android:name="android.hardware.camera.flash"/>
+
+</manifest>

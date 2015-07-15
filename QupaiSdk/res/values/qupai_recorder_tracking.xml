@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- android.media.MediaPlayer -->
+    <item type="id" name="qupai_event_media_player_prepared" />
+
+    <item type="id" name="qupai_event_record_autonext" />
+    <item type="id" name="qupai_event_record_manualnext" />
+    <item type="id" name="qupai_event_record_retake" />
+    <item type="id" name="qupai_event_record_abandon" />
+    <item type="id" name="qupai_event_record_quit" />
+
+    <item type="id" name="qupai_event_edit_back" />
+    <item type="id" name="qupai_event_overlay_editor_activate" />
+    <item type="id" name="qupai_event_gif_change" />
+    <item type="id" name="qupai_event_gif_time_length" />
+    <item type="id" name="qupai_event_gif_time_map" />
+    <item type="id" name="qupai_event_gif_move" />
+    <item type="id" name="qupai_event_gif_rotate" />
+    <item type="id" name="qupai_event_gif_completedownload_yes" />
+    <item type="id" name="qupai_event_gif_completedownload_no" />
+
+</resources>

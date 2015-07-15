@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+	    style="@style/Qupai.Text.BalloonTip.Medium"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/balloon_qupai_tip_center_bottom_bg"
+	    android:paddingBottom="27dp"
+	    android:paddingLeft="17dp"
+	    android:paddingRight="17dp"
+	    android:paddingTop="17dp" 
+	    android:id="@+id/tip"/>
+    
+</FrameLayout>

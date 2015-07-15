@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/action_bar"
+        layout="@layout/ab_qupai_draft_chooser" />
+
+    <com.duanqu.qupai.widget.astickyheader.ui.PinnedSectionGridView
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/grid"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/qupai_gray_0x33"
+        android:choiceMode="singleChoice"
+        android:columnWidth="100dp"
+        android:drawSelectorOnTop="true"
+        android:focusable="false"
+        android:gravity="center"
+        android:horizontalSpacing="4dp"
+        android:numColumns="4"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:scrollbarStyle="outsideOverlay"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="4dp" />
+
+</LinearLayout>

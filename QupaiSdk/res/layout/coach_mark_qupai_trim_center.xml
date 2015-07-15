@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/toast_bg_qupai_rect"
+    android:drawablePadding="12dp"
+    android:drawableTop="@drawable/trim_qupai_guide_drag"
+    android:gravity="center"
+    android:paddingBottom="15dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="15dp"
+    android:text="@string/qupai_trim_guide_drag"
+    android:textColor="@android:color/white"
+    android:textSize="15sp" />

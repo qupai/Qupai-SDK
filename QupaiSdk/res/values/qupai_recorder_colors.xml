@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="qupai_text_edit_colors">
+        <item>#ffffff</item>
+        <item>#efe0cd</item>
+        <item>#fcd1ff</item>
+        <item>#ffd4c1</item>
+        <item>#fff1b1</item>
+        <item>#fffd00</item>
+        <item>#c0ff00</item>
+        <item>#83ff85</item>
+        <item>#87efe4</item>
+        <item>#6de0ff</item>
+        <item>#57bafe</item>
+        <item>#ffcc00</item>
+        <item>#ff9125</item>
+        <item>#ff7475</item>
+        <item>#e3355a</item>
+        <item>#d75cd9</item>
+        <item>#9b81fc</item>
+        <item>#906e52</item>
+        <item>#b90071</item>
+        <item>#2844af</item>
+        <item>#4e348d</item>
+        <item>#008a27</item>
+        <item>#121212</item>
+    </array>
+
+    <array name="qupai_text_edit_colors_stroke">
+        <item>#333333</item>
+        <item>#7f5837</item>
+        <item>#a73684</item>
+        <item>#9d481f</item>
+        <item>#368efa</item>
+        <item>#756242</item>
+        <item>#556c14</item>
+        <item>#356c4b</item>
+        <item>#01708c</item>
+        <item>#2844af</item>
+        <item>#894812</item>
+        <item>#fffd00</item>
+        <item>#feff66</item>
+    </array>
+    <color name="qupai_text_dialog_vcode">#b3000000</color>
+    <color name="qupai_text_dialog_nickname">#4d000000</color>
+    <color name="qupai_color_list_default">#00ccaa</color>
+
+    <color name="qupai_color_text_edit_single">#a6a6a6</color>
+
+    <color name="qupai_bg_color_list">#ffffff</color>
+    <color name="qupai_text_dialog_bg">#f7f7f7</color>
+    <color name="qupai_text_dialog_green_default">#00ccaa</color>
+    <color name="qupai_text_dialog_green_press">#4ddbc3</color>
+
+    <color name="qupai_recording_tip_bg_long">@android:color/transparent</color>
+    <color name="qupai_recording_tip_bg_short">#4c000000</color>
+
+    <color name="qupai_recorder_timeline_background">#4d4d4d</color>
+    <color name="qupai_editor_asset_item_background">#484848</color>
+
+    <color name="qupai_import_toast_bg">#99000000</color>
+
+    <color name="qupai_album_divider_line">#434343</color>
+    <color name="qupai_dilog_divider_line">#d9d9d9</color>
+
+    <color name="qupai_balloon_tip_bg_cyan">#e626b8e9</color>
+
+    <color name="qupai_effect_chooser_item_text_short">#ffffff</color>
+
+    <color name="qupai_gray_0x19">#191919</color>
+    <color name="qupai_gray_0x33">#333333</color>
+    <color name="qupai_gray_0x48">#484848</color>
+    <color name="qupai_gray_0x4d">#4d4d4d</color>
+    <color name="qupai_gray_0x80">#808080</color>
+    <color name="qupai_gray_0x8c">#8c8c8c</color>
+    <color name="qupai_gray_0x99">#999999</color>
+    <color name="qupai_gray_0xf2">#f2f2f2</color>
+
+    <color name="qupai_black_opacity_40pct">#66000000</color>
+    <color name="qupai_black_opacity_50pct">#80000000</color>
+    <color name="qupai_black_opacity_70pct">#b3000000</color>
+    <color name="qupai_background_trim">#7f333333</color>
+    <color name="qupai_trim_green_default">#00ccaa</color>
+
+    <color name="qupai_translucent_0x7f">#7f7f7f7f</color>
+
+
+    <color name="qupai_theme_default_background_color_transparent_20">#4d00ccaa</color>
+    <color name="qupai_theme_default_background_color">#00ccaa</color>
+    <color name="qupai_theme_default_background_press_color">#4ddbc3</color>
+    <color name="qupai_theme_default_text_color">#00ccaa</color>
+    <color name="qupai_theme_default_text_press_color">#4ddbc3</color>
+    <color name="qupai_theme_default_message_backgroud_color">#c6ebe5</color>
+
+
+</resources>

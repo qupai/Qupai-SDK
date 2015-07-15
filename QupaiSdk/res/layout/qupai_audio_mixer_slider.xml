@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="54dp"
+    android:background="@color/qupai_black_opacity_40pct"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:layout_width="54dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center_vertical"
+        android:layout_marginLeft="10dp"
+        android:scaleType="center"
+        android:src="@drawable/btn_qupai_dubbing"
+        android:visibility="gone" />
+
+    <TextView
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center_vertical"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text="@string/qupai_audio_mix_track_music"
+        android:textColor="#57e957"
+        android:textSize="15sp" />
+
+    <SeekBar
+        android:id="@+id/sb_audio_mix_weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="55dp"
+        android:layout_marginRight="55dp"
+        android:progressDrawable="@drawable/sb_progress_qupai_audio_mix_weight"
+        android:max="1000" />
+
+    <TextView
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center_vertical"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text="@string/qupai_audio_mix_track_main"
+        android:textColor="#26b8e9"
+        android:textSize="15sp" />
+
+</FrameLayout>
